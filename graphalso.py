@@ -45,7 +45,7 @@ if st.sidebar.button("Predict"):
     #st.write(f"Sales Value is between {lower_bound} and {upper_bound}")
 
     x_values = ['Predicted', 'Lower Bound', 'Upper Bound']
-    y_values = [result[0], lower_bound, upper_bound]
+    y_values = [result[0], lower_bound[0], upper_bound[0]]
     plt.bar(x_values, y_values, color=['blue', 'green', 'red'])
     plt.xlabel('Sales')
     plt.ylabel('Value')
