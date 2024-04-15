@@ -13,7 +13,7 @@ def predict_sales(p1, p2, p3, p4, p5):
     return result
 
 
-st.title("SALE SENS : SALES PREDICTION")
+st.title("SaleSense : SALES PREDICTION")
 
 st.sidebar.title("Input Parameters")
 
