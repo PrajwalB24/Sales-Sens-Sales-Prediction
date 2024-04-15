@@ -30,8 +30,8 @@ if st.sidebar.button("Predict"):
     p5 = current_year - p5
 
     result = predict_sales(p1, p2, p3, p4, p5)
-    lower_bound = result - 714.42
-    upper_bound = result + 714.42
+    lower_bound = result - 713.95
+    upper_bound = result + 713.95
 
     st.markdown(f"Predicted Value: **${result[0]:.2f}**")
 
